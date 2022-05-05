@@ -1,0 +1,111 @@
+*{
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+
+}
+h2{
+    margin:5px; 
+    color:white ;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.add .material-icons
+{
+align-items: center;
+background-color: yellow;
+justify-content: center;
+width: 40px;
+height: 35px;
+font-size: 20px;
+color: black;
+border-radius: 50%;
+padding: 9px;
+text-align: center;
+margin-left: 5px;
+cursor: pointer;
+display: inline;
+}
+
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(20deg,grey	 50%,blueviolet	 9%)
+}
+
+.Container
+{
+    height: 500px;
+    width: 450px;
+    background-color: cadetblue;
+    border-radius: 5px 10px;
+    box-shadow: 0 5px 10px yellow;
+    padding: 10px;
+    overflow-y: auto;
+    display: inline;
+    
+
+}
+
+input{
+    height: 40px;
+    width: 80%;
+    border: none;
+    background-color: darkorange;
+    color: white;
+    border-radius: 6px;
+    display:inline;
+    padding: 0 3px;
+    margin: 15px 0px 5px;
+    
+}
+input::placeholder{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul li{
+    background-color: #eee;
+    color: #333;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px 0;
+    padding: 10px;
+    position:relative
+
+}
+ul .fa-check,.fa-trash{
+    position: absolute;
+    cursor: pointer;
+}
+
+ul .fa-check{
+    right: 40px;
+    color: green;
+}
+ul .fa-trash{
+    right: 15px;
+    color: red;
+}
+ul .checked{
+    background-color: lightgreen;
+    text-decoration: line-through;
+    transition: 2s;
+}
+
+button{
+    width: 25%; 
+    background-color: black;
+     display: inline; color:
+      aqua;
+      border: none;
+      border-radius: 5px;
+}
